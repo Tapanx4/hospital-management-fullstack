@@ -100,7 +100,8 @@ const res = await fetch(`${apiUrl}/api/admin/doctors`, fetchOptions);
                 setDoctorsLoading(false);
             }
             else if (tab === 'appointments') {
-                const res = await fetch('http://localhost:8080/api/admin/all-appointments', fetchOptions);
+                const apiUrl = process.env.REACT_APP_API_URL;
+                const res = await fetch(`${apiUrl}/api/admin/all-appointments`, fetchOptions);
                  if (!res.ok) {
                     const errorData = await res.json();
                     throw new Error(errorData.message || 'Failed to fetch appointments');
@@ -111,7 +112,8 @@ const res = await fetch(`${apiUrl}/api/admin/doctors`, fetchOptions);
                 setAppointments(sortedApps);
             }
             else if (tab === 'patients') {
-                const res = await fetch('http://localhost:8080/api/admin/patients', fetchOptions);
+                const apiUrl = process.env.REACT_APP_API_URL;
+                const res = await fetch(`${apiUrl}/api/admin/patients`, fetchOptions);
                  if (!res.ok) {
                     const errorData = await res.json();
                     throw new Error(errorData.message || 'Failed to fetch patients');
@@ -122,7 +124,8 @@ const res = await fetch(`${apiUrl}/api/admin/doctors`, fetchOptions);
                 setPatients(sortedPatients);
             }
             else if (tab === 'messages') {
-                const res = await fetch('http://localhost:8080/api/admin/messages', fetchOptions);
+                const apiUrl = process.env.REACT_APP_API_URL;
+                const res = await fetch(`${apiUrl}/api/admin/messages`, fetchOptions);
                  if (!res.ok) {
                     const errorData = await res.json();
                     throw new Error(errorData.message || 'Failed to fetch messages');
