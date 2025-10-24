@@ -33,7 +33,8 @@ const Register = () => {
 
         try {
             // Send registration request to the new backend endpoint
-            const response = await fetch('http://localhost:8080/api/auth/register-patient', {
+           const apiUrl = process.env.REACT_APP_API_URL;
+const response = await fetch(`${apiUrl}/api/auth/register-patient`, { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
