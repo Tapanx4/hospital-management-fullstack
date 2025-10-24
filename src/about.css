@@ -1,0 +1,57 @@
+.headerlogo {
+    width: 250px;
+    height: 100px;
+}
+
+.header {
+    background-color: #d4efe8;
+    font-size: large;
+    font-weight: normal;
+}
+.d {
+    background-color: #40b498;
+    height: 100px;
+}
+.intro{
+    font-size: medi;
+}
+.headings{
+    color: #40b498;
+    font-size: x-large;
+    font-weight: 900;
+}
+/* Custom CSS to make the dropdown appear on hover */
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+/* Optional: Add some styles for better appearance */
+.dropdown:hover .nav-link {
+background-color: #f0f0f0; /* Set your desired background color */
+}
+
+/* Hide the dropdown menu by default */
+.dropdown .dropdown-menu {
+display: none;
+}
+
+/* Optional: Add some padding to the dropdown menu items */
+.dropdown .dropdown-item {
+padding: 8px 16px; /* Adjust padding as needed */
+}
+
+.footer {
+    background-color: #273238;
+    color: #9da2a2;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}

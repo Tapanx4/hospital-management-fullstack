@@ -1,0 +1,289 @@
+.headerlogo {
+    width: 250px;
+    height: 100px;
+}
+.header {
+    background-color: #d4efe8;
+    font-size: large;
+    font-weight: normal;
+}
+.carousel-item {
+text-align: center; /* Center-align the contents of the carousel item */
+}
+
+.carousel-inner img {
+display: inline-block; /* Ensure the image is displayed as an inline-block element */
+margin: 0 auto; /* Center the image horizontally within the carousel item */
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+/* Optional: Add some styles for better appearance */
+.dropdown:hover .nav-link {
+background-color: #f0f0f0; /* Set your desired background color */
+}
+
+/* Hide the dropdown menu by default */
+.dropdown .dropdown-menu {
+display: none;
+}
+
+/* Optional: Add some padding to the dropdown menu items */
+.dropdown .dropdown-item {
+padding: 8px 16px; /* Adjust padding as needed */
+}
+.whyus {
+position: relative;
+text-align: center;
+color: #fff;
+padding: 60px 0 200px 0;
+/*background: #e8e8e8 url(../images/whyusbg.jpg) center center no-repeat fixed;*/
+background-size: cover;
+}
+
+.whyus:before {
+position: absolute;
+content: '';
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+display: block;
+background-color: rgba(82, 174, 127, 0.82);
+}
+
+.whyus .htitle {
+color: #fff;
+}
+
+.whyus .htitle:after {
+background-color: #fff;
+}
+
+.whyus2 {
+margin-top: -185px;
+position: relative;
+}
+
+.whyusbg {
+box-shadow: 2px 2px 15px -4px #18212f;
+padding: 50px 15px;
+background: #ffffff;
+}
+
+.whyusbg h4 {
+font-size: 20px
+}
+
+.whyusbg p,
+.whyusbg li {
+font-size: 15px
+}
+
+@media screen and (max-width: 990px) {
+.whyuslist ul li {
+  width: 49.5%;
+}
+}
+
+@media screen and (max-width: 778px) {
+.whyuslist ul li {
+  width: 99%;
+}
+}
+
+/*-------------*/
+.funfact-box {
+text-align: center;
+padding: 15px
+}
+
+.funfact-box h3 {
+font-size: 50px;
+display: block;
+line-height: 60px;
+font-weight: 700;
+color: #1f1f1f;
+}
+
+.funfact-box p {
+font-weight: 300;
+font-size: 18px;
+padding-top: 15px;
+display: block;
+margin: 0;
+color: #737373;
+}
+
+.section2 {
+padding: 80px 0
+}
+
+.text-desc h1:first-child,
+.text-desc h2:first-child,
+.text-desc h3:first-child,
+.text-desc h4:first-child,
+.text-desc h5:first-child {
+margin: 0 0 5px
+}
+
+.text-desc h1,
+.text-desc h2,
+.text-desc h3,
+.text-desc h4,
+.text-desc h5 {
+margin: 14px 0 5px
+}
+
+.text-desc table {
+border-collapse: collapse;
+margin: 0 0 20px;
+width: 100%
+}
+
+.text-desc table thead,
+.text-desc table th {
+background: #f1f1f1;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px
+}
+
+.text-desc table td,
+.text-desc table th {
+border: 1.5px solid silver;
+padding: 2px 3px 2px 8px;
+color: #000;
+vertical-align: middle
+}
+
+.text-desc table td {
+font-size: 15px
+}
+
+.text-desc ul,
+.text-desc ul ul {
+margin-left: 17px;
+margin-bottom: 22px
+}
+
+.text-desc ul>li {
+position: relative;
+padding: 2px 0 2px 5px
+}
+
+.text-desc ul>li:before {
+position: absolute;
+font-size: 15px;
+top: 2px;
+left: -10px;
+font-family: "Font Awesome 5 Free";
+/* content: "\f0da"; */
+font-weight: 900;
+color: #53ae80;
+}
+
+/* .text-desc ul>li>ul>li {
+list-style-type: circle
+}
+
+.text-desc ul>li>ul>li:before {
+content:none
+}  */
+
+.text-desc h2 {
+color: #52ad7e
+}
+
+.text-desc h3 {
+color: #52ad7e;
+font-size: 28px;
+font-weight: 500;
+line-height: 38px;
+padding: 0px 0 2px;
+margin: 0;
+letter-spacing: .5px;
+margin-bottom: 8px;
+position: relative;
+}
+
+.text-desc h3:after {
+background: #52ad7e;
+bottom: 0;
+content: "";
+height: 2px;
+position: absolute;
+width: 45px;
+left: 0;
+}
+
+.text-desc h4 {
+color: #52ae7f;
+font-size: 22px;
+font-weight: 500;
+line-height: 25px;
+padding: 0px 0 1px 25px;
+margin: 16px 0 3px 0;
+display: block;
+letter-spacing: .5px;
+position: relative;
+text-transform: capitalize;
+}
+
+.text-desc h4:before {
+position: absolute;
+font-size: 18px;
+top: 0px;
+left: -3px;
+font-family: "Font Awesome 5 Free";
+content: "\f0a4";
+font-weight: 900;
+}
+
+.text-desc h5 {
+font-size: 19px;
+font-weight: 500;
+line-height: 28px;
+padding: 5px 0 2px 20px;
+margin: 3px 0;
+letter-spacing: .5px;
+text-transform: capitalize;
+color: #2ca181;
+position: relative;
+}
+
+.text-desc h5:before {
+content: '*';
+position: absolute;
+font-size: 30px;
+top: 11px;
+left: 0;
+}
+
+.text-desc h2+hr,
+.text-desc h4+hr {
+border-color: #d0d0d0;
+width: 55%;
+text-align: center;
+display: inline-block
+}
+
+.text-desc img {
+display: inline-block !important
+}
+.footer {
+    background-color: #273238;
+    color: #9da2a2;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
